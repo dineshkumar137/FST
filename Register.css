@@ -1,0 +1,73 @@
+.reginput{
+    text-decoration: none;
+    border: none;
+    border: 2px rgb(69, 67, 67) dotted;
+    height: 2rem;
+    width: 15rem;
+    color: black;
+}
+
+.reghead{
+    border-radius: 15px;
+}
+
+.regmaindiv{
+    height: 57%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    padding: 5%;
+    border-radius: 10px;
+    background: linear-gradient(lightblue,pink);
+    padding-top: 3%;
+}
+
+.reginput:active{
+    background-color: rgb(212, 212, 212);
+}
+
+#subdivofregisterpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#signinfromregister{
+    border: none;
+    height: 2rem;
+    width: 3rem;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+#signinfromregister:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#signinfromregister:active{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.regmaindiv{
+    position: absolute;
+    top: 14%;
+    left: 20.5%;
+}
+
+#registerpageregbtn{
+    border: none;
+    height: 2rem;
+    width: 4rem;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+#registerpageregbtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#registerpageregbtn:active{
+    background-color: gray;
+    transition: 0.5s;
+}

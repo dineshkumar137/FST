@@ -1,0 +1,106 @@
+.datebuttons{
+    border: none;
+    height: 70px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #374785;
+    color: white;
+}
+
+.datebuttons:hover{
+    background-color:white;
+    color:#374785;
+    border: 3px solid;
+    border-color: #374785;
+}
+
+.maindivofdate{
+
+    margin: 3%;         
+    gap: 5%;
+    justify-content: left    ;
+    align-items: center;
+    display: flex;
+
+}
+
+.subdivofdate{
+    display: flex;
+    align-items: center;
+    gap:5%;
+    align-items: center;
+    justify-content: left;
+    margin-top: 3%;
+}
+
+
+
+.dateparadiv{
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    border: 3px #374785;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+.dateparadiv:hover{
+    border: antiquewhite solid;
+    background-color: white;
+}
+
+.datepara{
+    padding: 15%;
+    justify-content: center;
+}
+
+.inputsearchdiv{
+    margin: 0%;
+    padding: 0%;
+}
+
+.searchbox{
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.divforprofile{
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+}
+
+.divforprofileimage{
+    height: 100px;
+    width: 100px;
+    background-color:burlywood;
+    border-radius: 50px;
+    margin-left: 37%;
+    margin-top: 3%;
+}
+
+.buttontodosearch{
+    border: none;
+    height: 50px;
+    width: 90px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+.buttontodosearch:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttontodosearch:active{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+    transition: 0.5s;
+}
+
+.divholdsearchbutton{
+    margin-top: 3%;
+}
+
+.submaindiv{
+    margin-left:1%;
+}

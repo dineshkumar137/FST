@@ -1,0 +1,99 @@
+#logemail{
+    text-decoration: none;
+    border: none;
+    border: 2px rgb(69, 67, 67) dotted;
+    height: 2rem;
+    width: 15rem;
+    color: black;
+}
+
+.logheadmail{
+    border-radius: 15px;
+}
+
+#logemail:active{
+    background-color: rgb(212, 212, 212);
+}
+
+#logpassword{
+    text-decoration: none;
+    border: none;
+    border: 2px rgb(69, 67, 67) dotted;
+    height: 2rem;
+    width: 15rem;
+    color: black;
+}
+
+.logheadpassword{
+    border-radius: 15px;
+}
+
+#logpassword:active{
+    background-color: rgb(212,212,212);
+}
+
+#loginmaindiv{
+    height: 50.7%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 50%;
+    padding: 5%;
+    border-radius: 10px;
+    background:linear-gradient(pink,lightblue);
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    
+}
+
+#loginpageloginbutton
+{
+    border: none;
+    height: 2rem;
+    width: 3rem;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+#loginpageloginbutton:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#loginpageloginbutton:active{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+#subdivofloginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#Registerfromlogin{
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 15px;
+    background-color: gainsboro;
+}
+
+#Registerfromlogin:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Registerfromlogin:active{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+#loginmaindiv{
+    position: absolute;
+    top: 17%;
+    left: 20.5%;
+}
+
+#signInButton{
+    width: 25%;
+    border: black solid 1px;
+    border-radius: 25px;
+}
